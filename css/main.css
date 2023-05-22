@@ -1,0 +1,50 @@
+
+
+.banner {
+	padding: 100px 0;
+	background:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../images/conf.jpeg') no-repeat center / cover;
+	color: #fff;
+}
+
+.speakers {
+	padding: 60px 0;
+}
+
+.speakers .card {
+	margin-bottom: 30px;
+}
+
+.card-body {
+	/* height: 248.8px; */
+	height: 160px;
+	text-align: center;
+}
+
+nav {
+	background-color: #6699ff;
+}
+
+.btn-primary {
+	background-color: #6699ff;
+	border-color:#6699ff;
+}
+
+footer {
+	background-color: #6699ff;
+}
+
+footer a, span {
+	color: white;
+}
+
+hr {
+	border: 1px solid;
+	color: #ccc;
+}
+
+@media (min-width: 768px) {
+	.banner {
+		padding: 160px 0 120px;
+	}
+}
+
